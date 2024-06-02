@@ -10,6 +10,7 @@ export const Skills = [
   "Redux",
   "Sass",
   "JQuery",
+  "Wagmi"
 ];
 
 export const certificateDetails = [

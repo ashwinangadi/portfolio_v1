@@ -1,6 +1,5 @@
 "use client";
 import { useState, useEffect, useContext } from "react";
-// import resume from "./resume.pdf";
 import { Link as RLink } from "react-scroll";
 import Link from "next/link";
 import { Social } from "./Social";
@@ -86,14 +85,14 @@ export const Navbar = () => {
               ))}
             </ol>
             <div className="relative h-10 w-24 bg-green rounded-md ">
-              <a
+              <Link
                 className="alsolute  bg-[#0a192f] h-10 w-24 border border-green text-green grid place-content-center font-mono rounded-md transition-all hover:-translate-x-1 hover:-translate-y-1 duration-150"
-                // href={resume}
+                href={"https://drive.google.com/file/d/1iPf_gU2ftDcPHrkOjOhbHM2o0cQfvYnB/view?usp=drive_link"}
                 rel="noopener noreferrer"
                 target="_blank"
               >
                 Resume
-              </a>
+              </Link>
             </div>
           </div>
         </div>
@@ -180,10 +179,10 @@ export const Navbar = () => {
               {/* Resume and Social */}
               <div className="flex flex-col items-center justify-center space-y-10">
                 {/* Resume button */}
-                <div className="relative h-14 w-36 bg-green rounded-md ">
+                <div className="relative h-10 w-36 bg-green rounded-md ">
                   <Link
-                    className="alsolute z-10 bg-[#0a192f] text-sm h-14 w-36 border border-green text-green grid place-content-center font-mono rounded-md transition-all hover:-translate-x-1 hover:-translate-y-1 duration-150"
-                    href={"resume"}
+                    className="alsolute z-10 bg-[#0a192f] text-sm h-10 w-36 border border-green text-green grid place-content-center font-mono rounded-md transition-all hover:-translate-x-1 hover:-translate-y-1 duration-150"
+                    href={"https://drive.google.com/file/d/1iPf_gU2ftDcPHrkOjOhbHM2o0cQfvYnB/view?usp=drive_link"}
                     rel="noopener noreferrer"
                     target="_blank"
                   >
