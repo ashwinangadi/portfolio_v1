@@ -4,8 +4,6 @@ import { Contact } from "@/components/Contact";
 import Experience from "@/components/Experience";
 import { Name } from "@/components/Name";
 import { Social } from "@/components/Social";
-import Sxp from "@/components/project/Sxp";
-import { HoverEffect } from "@/components/ui/card-hover-effect";
 import FeaturedProjects from "@/components/project/FeaturedProjects";
 import { TracingBeam } from "@/components/ui/tracing-beam";
 import Projects from "@/components/project/Projects";
