@@ -113,7 +113,9 @@ export const About = () => {
             <div className="grid place-self-center md:place-self-start relative col-span-2 border-2 border-green hover:translate-y-1 hover:translate-x-1 duration-150 rounded-md mt-10 md:mt-2">
               <div className="bg-[#8ed5c4] -translate-y-2 -translate-x-2 hover:-translate-y-4 hover:-translate-x-4 duration-150 rounded-md ">
                 <Image
-                  src={"/images/dp.jpg"}
+                  src={
+                    "https://ik.imagekit.io/on6digi9o/Images/dp.jpg?updatedAt=1717341939968"
+                  }
                   width={200}
                   height={200}
                   alt="Recipe project window"

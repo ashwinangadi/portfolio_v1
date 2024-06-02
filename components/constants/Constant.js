@@ -62,7 +62,7 @@ export const FeaturedProjectsData = [
     name: "Car-O-Bar",
     description:
       "A convenient car renting web app powered by RapidCarAPI. Filter cars by make, model, and more, add favorites, calculate prices based on rental days, and make secure payments for a seamless booking experience.",
-    photo: "/images/car.png",
+    photo: "https://ik.imagekit.io/on6digi9o/Images/car.png?updatedAt=1717341940296",
     technologies: ["Typescript", "NextJS", "TailwindCSS", "Redux"],
     github: "https://github.com/ashwinangadi/Car-O-Bar",
     demo: "https://car-o-bar.vercel.app/",
@@ -72,7 +72,7 @@ export const FeaturedProjectsData = [
     name: "MoviesHere",
     description:
       "MoviesHere is a sleek and intuitive movie discovery platform that showcases trending films with dynamic search functionality, providing comprehensive details and personalized recommendations based on user preferences.",
-    photo: "/images/movies.png",
+    photo: "https://ik.imagekit.io/on6digi9o/Images/movies.png?updatedAt=1717341941629",
     technologies: ["Javascript", "ReactJs", "TailwindCSS", "Axios"],
     github: "https://github.com/ashwinangadi/movieshere",
     demo: "https://movieshere.vercel.app/",
@@ -82,7 +82,7 @@ export const FeaturedProjectsData = [
     name: "Recipe Master",
     description:
       "Developed and styled this web application that provides tasteful recipes worldwide with the API provided by TheMealsDb.",
-    photo: "/images/recipe.png",
+    photo: "https://ik.imagekit.io/on6digi9o/Images/recipe.png?updatedAt=1717341940528",
     technologies: ["Javascript", "ReactJS", "TailwindCSS", "TheMealsDB API"],
     github: "https://github.com/ashwinangadi/React-Recipe-Master",
     demo: "https://react-recipe-master.web.app/",
