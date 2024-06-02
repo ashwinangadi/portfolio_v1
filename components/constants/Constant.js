@@ -19,9 +19,12 @@ export const certificateDetails = [
     company: "FXDX",
     time: "Nov 2023 - Present",
     points: [
-      "In this Responsive Web Design Certification, I learned the languages that developers use sto build webpages: HTML (Hypertext Markup Language) for content, and CSS (Cascading Style Sheets) for design.",
-      "First, I built a cat photo app to learn the basics of HTML and CSS. Later, I learned modern techniques like CSS variables by building a penguin, and best practices for accessibility by building a quiz site.",
-      "Finally, I learned how to make webpages that respond to different screen sizes by building a photo gallery with Flexbox, and a magazine article layout with CSS Grid.",
+      "Spearheaded the development of FXDX's groundbreaking exchange platform, architecting a cutting-edge frontend solution that consistently outperformed industry benchmarks.",
+      "Optimized web vitals, achieving a remarkable 95+ Lighthouse score, surpassing 50% of direct competitors in performance metrics.",
+      "Implemented comprehensive SEO strategies, resulting in a 72% increase in organic traffic within the first 6 months of launch.",
+      "Collaborated seamlessly with cross-functional teams, including product managers, designers, and backend engineers, facilitating a cohesive and streamlined development process.",
+      "Thrived in FXDX's fast-paced, entrepreneurial environment, consistently delivering high-quality solutions under tight deadlines.",
+      "Skills: Javascript, ReactJs, NextJs, React-Native, TailwindCSS, Socket.io, Zustand, Wagmi",
     ],
   },
   {
@@ -68,9 +71,9 @@ export const FeaturedProjectsData = [
     id: 2,
     name: "MoviesHere",
     description:
-      "Designed and Developed this web app to manage the trading watchlist of companies with the information fetched from finnHub API and representation of price data using APEXCHARTS API.",
-    photo: "/images/trade.png",
-    technologies: ["Javascript", "ReactJs", "TailwindCSS", "finnHub API"],
+      "MoviesHere is a sleek and intuitive movie discovery platform that showcases trending films with dynamic search functionality, providing comprehensive details and personalized recommendations based on user preferences.",
+    photo: "/images/movies.png",
+    technologies: ["Javascript", "ReactJs", "TailwindCSS", "Axios"],
     github: "https://github.com/ashwinangadi/movieshere",
     demo: "https://movieshere.vercel.app/",
   },
@@ -91,8 +94,8 @@ export const otherProjectsData = [
     id: 1,
     title: "AlphaX",
     description:
-      "This is my portfolio website. I have used NextJS and TailwindCSS to build this website.",
-    technologies: ["Next.js", "TailwindCSS"],
+      "AlphaX landing page that utilizes WebSocket connections to instantly update prices, with dynamic color changes reflecting fluctuations,",
+    technologies: ["Next.js", "TailwindCSS, Socket.io"],
     // github: "https://github.com/ashwinangadi/portfolio",
     demo: "https://alphax.finance/",
   },
@@ -100,7 +103,7 @@ export const otherProjectsData = [
     id: 1,
     title: "FXDX V2",
     description:
-      "This is my portfolio website. I have used NextJS and TailwindCSS to build this website.",
+      "I designed and engineered the high-performance FXDXV2 aggregator platform, optimizing web vitals to deliver an exceptional, lightning-fast user experience.",
     technologies: [
       "Next.js",
       "Typescript",
@@ -116,7 +119,7 @@ export const otherProjectsData = [
     id: 1,
     title: "Trade Watchlist",
     description:
-      "Designed and Developed this web app to manage the trading watchlist of companies with the information fetched from finnHub API and representation of price data using APEXCHARTS API.",
+      "Designed and Developed this web app to manage the trading watchlist and representation of price data using APEXCHARTS API.",
     technologies: ["React.js", "Javascript", "TailwindCSS, Axios, finnHub API"],
     github: "https://github.com/ashwinangadi/React-Trade-Watchlist",
     demo: "https://trade-watchlist.web.app/",
@@ -125,7 +128,7 @@ export const otherProjectsData = [
     id: 1,
     title: "Tic-Tac-Toe",
     description:
-      "This is my portfolio website. I have used NextJS and TailwindCSS to build this website.",
+      "Leveraging React Native, I developed a cross-platform mobile game that provides an immersive and seamless gaming experience for both Android and iOS devices.",
     technologies: ["React Native", "Tailwindcss"],
     github: "https://github.com/ashwinangadi/TicTacToc_React_Native",
   },
@@ -133,7 +136,7 @@ export const otherProjectsData = [
     id: 1,
     title: "Quinvest",
     description:
-      "This is my portfolio website. I have used NextJS and TailwindCSS to build this website.",
+      "Explore QuInvest's advanced trading strategies in Cryptocurrency market. Precision algorithms and data insights merge for intelligent investment decisions.",
     technologies: [
       "Next.js",
       "Javascript",
@@ -148,7 +151,7 @@ export const otherProjectsData = [
     id: 1,
     title: "Weather App",
     description:
-      "This is my portfolio website. I have used NextJS and TailwindCSS to build this website.",
+      "Developed a user-friendly weather application that provides accurate and up-to-date weather information for locations worldwide, offering a seamless experience across various platforms.",
     technologies: ["React.js", "Javascript", "TailwindCSS", "Axios"],
     github: "https://github.com/ashwinangadi/weather-app",
     demo: "https://weatherr-appp.web.app/",
@@ -157,7 +160,7 @@ export const otherProjectsData = [
     id: 1,
     title: "Team Member Allocation",
     description:
-      "This is my portfolio website. I have used NextJS and TailwindCSS to build this website.",
+      "Effectively managed the sorting and allocation process for team members.",
     technologies: ["React.js", "Javascript", "TailwindCSS"],
     github: "https://github.com/ashwinangadi/React-TeamMemberAllocation",
     demo: "https://team-member-allocation.web.app/",
@@ -166,7 +169,7 @@ export const otherProjectsData = [
     id: 1,
     title: "Board Dashboard",
     description:
-      "This is my portfolio website. I have used NextJS and TailwindCSS to build this website.",
+      "Developed a comprehensive dashboard application that seamlessly integrates robust authentication mechanisms, ensuring secure access and data protection for authorized users.",
     technologies: ["React.js", "TailwindCSS", "Axios"],
     github: "https://github.com/ashwinangadi/Dashboard",
     demo: "https://dashboard-reactjs-project.web.app/",
@@ -175,7 +178,7 @@ export const otherProjectsData = [
     id: 1,
     title: "Calculator",
     description:
-      "This is my portfolio website. I have used NextJS and TailwindCSS to build this website.",
+      "Crafted a user-friendly calculator application with a clean interface and efficient functionality for performing various mathematical operations.",
     technologies: ["React.js", "Javascript", "CSS"],
     github: "https://codepen.io/ashwinangadi/pen/jOvdJvP",
     demo: "https://react-calculator-webapp.web.app/",
@@ -184,7 +187,7 @@ export const otherProjectsData = [
     id: 1,
     title: "Pomodoro Timer",
     description:
-      "This is my portfolio website. I have used NextJS and TailwindCSS to build this website.",
+      "Developed a productivity-boosting Pomodoro Timer application, enabling users to effectively manage their time and enhance focus through the Pomodoro technique.",
     technologies: ["React.js", "Javascript", "CSS"],
     github: "https://codepen.io/ashwinangadi/pen/YzOoKqB",
     demo: "https://react-pomodoro-timer-app.web.app/",
@@ -193,7 +196,7 @@ export const otherProjectsData = [
     id: 1,
     title: "Random Quote Machine",
     description:
-      "This is my portfolio website. I have used NextJS and TailwindCSS to build this website.",
+      "Designed and implemented a Random Quote Machine, providing users with a constant stream of inspirational and thought-provoking quotes to motivate and uplift.",
     technologies: ["React.js", "Javascript", "CSS"],
     github: "https://codepen.io/ashwinangadi/pen/yLxxzMJ",
     demo: "https://react-random-quote-machine.web.app/",

@@ -7,7 +7,7 @@ export const About = () => {
     <>
       <section
         id="About"
-        className="container mx-auto  md:h-full flex flex-col items-center justify-center w-full  md:max-w-4xl px-5  "
+        className="container mx-auto  md:h-full flex flex-col items-center justify-center w-full  md:max-w-5xl px-5  "
       >
         <div className="flex flex-col">
           <div className="text-base font-sans mb-10 flex items-center">

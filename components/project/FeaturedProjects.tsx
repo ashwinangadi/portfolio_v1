@@ -21,7 +21,7 @@ const FeaturedProjects = () => {
         {FeaturedProjectsData.map((item) => (
           <li
             key={item.id}
-            className={`relative md:grid md:grid-cols-12 w-full h-full mb-80 sm:mb-56 md:mb-32 xl:mb-20 ${item.id % 2 === 0 ? "md:text-end  " : null}`}
+            className={`relative md:grid md:grid-cols-12 w-full h-full mb-80 sm:mb-52 md:mb-32 xl:mb-20 ${item.id % 2 === 0 ? "md:text-end  " : null}`}
           >
             <FProjectCard
               id={item.id}

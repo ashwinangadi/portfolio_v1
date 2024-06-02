@@ -3,7 +3,7 @@ export const Contact = () => {
     <>
       <section
         id="Contact"
-        className="container mx-auto pb-40 h-full flex flex-col items-center justify-center max-w-4xl "
+        className="container mx-auto xl:pb-40 h-full flex flex-col items-center justify-center max-w-4xl "
       >
         <div className="text-base mb-10 flex items-center justify-center text-green font-mono font-normal mt-2.5 w-full">
           <h1 className="">04.</h1>
@@ -12,12 +12,15 @@ export const Contact = () => {
         <h2 className="font-bold text-lightest-slate mb-10 text-5xl font-sans">
           Get In Touch
         </h2>
-        <p className="font-sans text-center text-slate text-lg antialiased ">
-          I am looking for a company willing to offer me a placement among their
-          developers. In return, I offer my full commitment and be a pleasant
-          and friendly addition to your team. I am therefore currently looking
-          for for any new opportunities as a{" "}
-          <span className="font-mono text-blue">front-end developer</span>.
+        <p className="flex flex-col font-sans text-center text-slate text-lg antialiased ">
+          Ah, you&apos;ve made it this far! I commend your curiosity and
+          perseverance. Now that you&apos;ve had a glimpse into my world, let&apos;s take
+          the next step and open the door to potential collaborations or
+          exciting opportunities.
+          <span className="font-mono text-blue">
+            Let&apos;s make something extraordinary! 🚀
+          </span>
+          .
         </p>
         <div className="relative h-14 w-36  bg-green mt-20 rounded-md">
           <a

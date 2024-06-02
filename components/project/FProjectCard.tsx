@@ -1,7 +1,8 @@
+"use client";
 import { cn } from "@/lib/utils";
 import Image from "next/image";
 import Link from "next/link";
-import React from "react";
+import React, { useState } from "react";
 import { FiExternalLink, FiGithub } from "react-icons/fi";
 
 type FeaturedProjectType = {
@@ -23,11 +24,12 @@ const FProjectCard = ({
   github,
   technologies,
 }: FeaturedProjectType) => {
+  const [loaded, setLoaded] = useState(false);
   return (
     <>
       <div
         className={cn(
-          `${id % 2 === 0 ? "md:col-start-1 md:col-span-7" : "md:col-start-6 md:col-span-7"} md:relative max-h-[290px] bg-green-tint md:bg-[#8ed5c4] rounded-md md:hover:translate-x-6 md:hover:scale-100 md:duration-300`
+          `${id % 2 === 0 ? "md:col-start-1 md:col-span-7 md:hover:-translate-x-6" : "md:col-start-6 md:col-span-7 md:hover:translate-x-6"} md:relative max-h-[290px] bg-green-tint md:bg-[#8ed5c4] rounded-md md:hover:scale-100 md:duration-300`
         )}
       >
         <Link
@@ -39,9 +41,13 @@ const FProjectCard = ({
           <Image
             src={photo}
             alt="Recipe project window"
+            onLoad={() => setLoaded(true)}
             width={1000}
             height={1000}
-            className="mix-blend-multiply max-h-[290px] md:hover:mix-blend-normal rounded-md"
+            className={cn(
+              "mix-blend-multiply max-h-[290px] md:hover:mix-blend-normal rounded-md",
+              loaded ? "blur-none " : "blur-md "
+            )}
           />
         </Link>
       </div>

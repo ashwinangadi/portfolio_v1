@@ -40,7 +40,7 @@ export const Social = () => {
     <>
       <div
         id="Social"
-        className="z-50 flex flex-col justify-center text-light-slate xl:absolute "
+        className="z-50 flex flex-col justify-center text-light-slate pb-5 lg:pb-20 xl:absolute "
       >
         <div className="mx-auto flex justify-between px-2 w-full min-w-[260px] max-w-[500px] xl:min-w-[20px] xl:max-w-[20px] font-bold  md:gap-16 lg:gap-20 xl:fixed xl:bottom-0 xl:left-20 xl:mb-0 xl:mt-0  xl:flex-col xl:items-center xl:justify-center xl:gap-0 xl:space-x-0 xl:space-y-8">
           {socials.map((item) => (

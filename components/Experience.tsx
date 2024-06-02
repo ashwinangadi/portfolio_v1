@@ -9,7 +9,7 @@ const Experience = () => {
   return (
     <section
       id="Certification"
-      className="container mx-auto h-full flex flex-col items-center justify-center max-w-3xl px-5"
+      className="container mx-auto h-full flex flex-col items-center justify-center max-w-4xl px-5"
     >
       <div className="text-base font-sans w-full mb-4 sm:mb-10 flex items-center">
         <h1 className="text-green text-xl md:text-2xl font-mono grid place-self-end">
@@ -77,7 +77,7 @@ const Experience = () => {
                   <ul className="relative list-disc pl-7 leading-snug font-sans antialiased ">
                     {item?.points?.map((point, index) => {
                       return (
-                        <li key={index} className="mb-4 text-green">
+                        <li key={index} className="mb-2 text-base text-green">
                           <span className="text-slate">{point}</span>
                         </li>
                       );

@@ -5,7 +5,7 @@ import { otherProjectsData } from "../constants/Constant";
 const Projects = () => {
   return (
     <section>
-      <h2 className="mx-2 text-2xl md:text-3xl text-lightest-slate text-center font-semibold">
+      <h2 className="mx-2 text-2xl pt-20 sm:pt-0 md:text-3xl text-lightest-slate text-center font-semibold">
         Other Noteworthy Projects
       </h2>
       <div className="relative max-w-5xl mx-auto px-8">
